@@ -3,14 +3,11 @@
   <section class="about-section">    
     <div class="about-group">
       <div class="about-image">
-        <img src="https://previews.123rf.com/images/apoev/apoev2107/apoev210700033/171405527-default-avatar-photo-placeholder-gray-profile-picture-icon-business-man-illustration.jpg" alt="">
+        <img src="https://images.unsplash.com/photo-1493723843671-1d655e66ac1c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="">
       </div>
       <div class="about-text">
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe,
-          velit odio? Fugiat ratione voluptatem, blanditiis itaque
-          doloremque animi cupiditate assumenda, ad expedita vitae,
-          reiciendis minima at nisi non eum cumque.
+          
         </p>
         <br>
         <p>
@@ -20,12 +17,7 @@
           impedit consequatur! Similique?
         </p>
         <br>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod,
-          animi possimus provident quo doloremque aspernatur enim hic
-          neque aperiam tempora molestiae vel tempore harum voluptatibus
-          voluptatem molestias itaque voluptas alias?
-        </p>
+       >
       </div>
     </div>
   </section>
@@ -76,7 +68,7 @@
 img{
   width: 100%;
   border-radius: 20px;
-  box-shadow: 0 0 20px rgba(0, 189, 126, 1);
+  box-shadow: 0 0 20px #fabada;
 }
 
 .about-text{
