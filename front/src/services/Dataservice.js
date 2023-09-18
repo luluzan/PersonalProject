@@ -1,9 +1,8 @@
+import axios from '../httpCommon.js'; 
 
-import axiosConnection from '../httpCommon';
+export default {
 
-export default({
-
-    create(ProjectsData){
-        return axiosConnection.get(`/projects`, ProjectsData);
-    },
-})
+    getPortfolio() {
+        return axios.get('/projects'); 
+    },
+}
