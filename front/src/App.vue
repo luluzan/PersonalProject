@@ -22,7 +22,7 @@ import { RouterLink, RouterView } from 'vue-router'
 a,
 .green {
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
+  color: pink;
   transition: 0.4s;
 }
 
@@ -38,7 +38,7 @@ nav{
 }
 
 nav a.router-link-exact-active {
-  color: var(--color-text);
+  color: hotpink;
   text-decoration: underline;
   text-underline-offset: 10px;
 }
@@ -63,7 +63,7 @@ nav a:first-of-type {
 h1{
   margin: 5% 10%;
   font-size: 3rem;
-  color: hsla(160, 100%, 37%, 1);
+  color: hotpink;
   text-decoration: underline;
   text-underline-offset: 10px;
 }

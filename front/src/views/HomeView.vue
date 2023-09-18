@@ -3,41 +3,21 @@
 
 <template>
 <div class="flex-container">
-	<div class="spinner"><p>
-		<div class="cube1"></div>
-		<div class="cube2"></div>
-		Loading...
-		</p>
-	</div>
+	
 	<div class="flex-slide home">
 		<div class="flex-title flex-title-home">Home</div>
-		<div class="flex-about flex-about-home"><p>Click here to navigate to the home section of the website</p></div>
 	</div>
 	<div class="flex-slide about">
 		<div class="flex-title">About</div>
-		<div class="flex-about"><p>Click here to navigate to the About section of the website</p></div>
+		
 	</div>
 	<div class="flex-slide work">
 		<div class="flex-title">Work</div>
-		<div class="flex-about"><p>Listing relevant snippets of work:</p>
-			<ul>
-				<li>First piece of work</li>
-				<li>Second piece of work</li>
-				<li>Third piece of work</li>
-			</ul>
-		</div>
+		
 	</div>
 	<div class="flex-slide contact">
 		<div class="flex-title">Contact</div>
-				<div class="flex-about">
-					<p>Use the contact form below</p>
-					<form class="contact-form">
-						<p>Email <input type="text" name="email"></p>
-						<p>Comment <textarea type="text" name="comment" row="5"></textarea></p>
-						<p><input type="submit" name="email" value="Send Message"></p>
-					</form>
-
-		</div>
+				
 	</div>
 </div>
 </template>
@@ -137,7 +117,7 @@ body {
 }
 .home {
 	height: 100vh;
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/lake-macquarie-71208_1920.jpg);
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1557853197-aefb550b6fdc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1335&q=80);
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
@@ -211,7 +191,7 @@ body {
 
 
 .about {
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/beach-2089959_1280.jpg);
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1355&q=80);
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;	
@@ -226,13 +206,13 @@ textarea {
 	width: 100%;	
 }
 .contact {
-		background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/lake-696098_1920.jpg);
+		background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1504805572947-34fad45aed93?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
 }
 .work {
-		background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/forest-208517_1280.jpg);
+		background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1665392996886-0949d131a5da?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1269&q=80);
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;

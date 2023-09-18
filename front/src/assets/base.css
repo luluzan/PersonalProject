@@ -58,8 +58,8 @@
   position: relative;
   font-weight: normal;
   
-  /* firefox */
-  scrollbar-color: hsla(160, 100%, 37%, 1) hsla(160, 100%, 37%, 0.5);
+ 
+  scrollbar-color: hsla(160, 100%, 37%, 1) #fabada;
   scrollbar-width: thin;
 }
 
@@ -79,10 +79,10 @@ body {
 
 /* chrome */
 body::-webkit-scrollbar{
-background-color: hsla(160, 100%, 37%, 0.5);
+background-color: #fabada;
 width: 10px;
 }
 body::-webkit-scrollbar-thumb{
-background: hsla(160, 100%, 37%, 1);
-border-radius: 5px;
+background: #fabada;
+border-radius: 25px;
 }
